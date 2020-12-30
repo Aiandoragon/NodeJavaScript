@@ -1,4 +1,4 @@
-console.log("greeting module");
+//console.log("greeting module");
 let currentDate = new Date();
 module.exports.date = currentDate;
  
@@ -11,3 +11,4 @@ module.exports.getMessage = function(name){
     else
         return "Доброе утро, " + name;
 }
+module.exports.name = "Alice";
